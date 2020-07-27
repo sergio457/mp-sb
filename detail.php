@@ -2,7 +2,7 @@
 // SDK de Mercado Pago
 require __DIR__ .  '/sdk/vendor/autoload.php';
 // Agrega credenciales
-MercadoPago\SDK::setAccessToken('TEST-7607476184899787-081409-9c60765a86949f1d211894f990c23316-63529707');
+MercadoPago\SDK::setAccessToken('APP_USR-6317427424180639-042414-47e969706991d3a442922b0702a0da44-469485398');
 
  
 
@@ -17,7 +17,7 @@ $item->unit_price = $_POST['price'];
 $payer = new MercadoPago\Payer();
   $payer->name = "Lalo";
   $payer->surname = "Landa";
-  $payer->email = "charles@hotmail.com";
+  $payer->email = "test_user_63274575@testuser.com";
   $payer->phone = array(
     "area_code" => "11",
     "number" => "22223333"
